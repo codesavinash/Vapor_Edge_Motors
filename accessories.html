@@ -1,37 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Complete_web_sample</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/app.css" />
-  </head>
-  <body>
-    <div id="logo">
-      <img src="assets/images/logo.png" alt="" />
-    </div>
-    <div id="logo">
-      <img src="assets/images/logo.svg" alt="" />
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complete_web_sample</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div id="logo">
+    <img src="assets/images/logo.svg" alt="logo">
+  </div>
+  <div id="hamburger" onclick="toggleMenu();">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  <nav class="kodeMono">
+    <a href="#about" title="about">About</a>
+    <a href="#accessories" title="accessories">Accessories</a>
+    <a href="#models" title="models">Models</a>
+    <a href="#contact" title="contact">Contact</a>
     <div id="social">
-      <img src="assets/images/facebook.png" alt="facebook" />
-      <img src="assets/images/twitter.png" alt="twitter" />
-      <img src="assets/images/instagram.png" alt="instagram" />
+      <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebook.png" alt="facebook"></a>
+      <a href="https://www.twitter.com/" target="_blank"><img src="assets/images/twitter.png" alt="twitter"></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="assets/images/instagram.png" alt="instagram"></a>
     </div>
-    <div id="hamburger" onclick="toggleMenu();">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-    </div>
-    <nav class="kodeMono">
-      <a href="#about" title="about">About</a>
-      <a href="#accessories" title="accessories">Accessories</a>
-      <a href="#models" title="models">Models</a>
-      <a href="#contact" title="contact">Contact</a>
-    </nav>
+  </nav>
     <div id="grid">
       <header>
         <h1 class="kodeMono">Vapor Edge Motors</h1>
