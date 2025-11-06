@@ -163,12 +163,14 @@ nav{
   grid-area: acc;
   grid-template-columns: repeat(4, 1fr);
   gap: 50px;
-  background: #000;
+  background: #2980B9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 40px;
   text-align: center;
 }
 #accessories .item {
-  background: #111;
+  background: #333;
   border: 1px solid #333;
   border-radius: 10px;
   padding: 15px;
@@ -202,4 +204,111 @@ nav{
 #accessories .item button:hover {
   background: #00b7ff;
   box-shadow: 0 0 8px #00b7ff;
+}
+
+
+
+footer {
+  grid-area: ftr;
+  background: #d8dddf;
+  color: #000;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  border:1px solid #000;
+}
+.footer-address {
+  border-bottom: 0.5px solid #847d7d;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.footer-address p {
+  margin: 0 0 10px;
+  line-height: 1.4;
+}
+.footer-bottom p {
+  margin: 0;
+  color: #333;
+}
+#models {
+  grid-area: mdl;
+  background: #fff;
+  color: #000;
+  padding: 60px 80px;
+}
+#models .models-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.models-title {
+  font-family: "Kode Mono", monospace;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+.models-group {
+  margin-bottom: 40px;
+}
+.models-heading {
+  font-family: "Kode Mono", monospace;
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+.models-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px;
+}
+.model-card {
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #d5dde6;
+  padding: 18px 22px 20px;
+}
+.model-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 12px;
+}
+.model-name {
+  font-size: 1.1em;
+  margin: 0 0 6px;
+}
+.model-series {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #0066cc;
+  background: #e4f0ff;
+  padding: 3px 8px;
+  border-radius: 999px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.model-text {
+  font-size: 0.8em;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+.model-specs {
+  font-size: 0.75em;
+  color: #555;
+  margin: 0;
+  padding-left: 20px;
+}
+.models-separator {
+  margin: 25px 0;
+  border: none;
+  border-top: 1px solid #d0d5dd;
+}
+@media (max-width: 900px) {
+  #models {
+    padding: 40px 20px;
+  }
+
+  .models-grid {
+    grid-template-columns: 1fr;
+  }
 }
