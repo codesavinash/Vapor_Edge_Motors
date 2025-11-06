@@ -4,7 +4,6 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
 .kodeMono {
   font-family: "Kode Mono", monospace;
   font-optical-sizing: auto;
@@ -16,7 +15,7 @@ p{
 body{
   width: 100%;
   background: #333;
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 #logo{
   width: 120px;
@@ -25,7 +24,7 @@ body{
   left: 25px;
   z-index: 10;
 }
-  #logo > img {
+  #logo > a > img {
   width: 120px;
 }
 #social{
@@ -96,12 +95,11 @@ nav{
   header{
     display: grid;
     grid-area: hdr;
-    height: 650px;
-    background: url(../assets/images/bkg2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-size: 1.6em;
+    height: 250px;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 1.5em;
     font-weight: 700;
     align-items: center;
     justify-content: center;
