@@ -310,7 +310,7 @@ footer {
 .btn:hover {
   background: #004c99;
 }
-@media (max-width: 840px) {
+@media (max-width: 1000px) {
   body {
     font-size: 1em;
   }
