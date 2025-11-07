@@ -343,6 +343,7 @@ body {
           font-family: "Kode Mono", monospace;
           font-size: 1.4em;
           margin-bottom: 20px;
+          color: rgb(255, 98, 1);
         }
           .models-grid {
             display: grid;
@@ -377,12 +378,12 @@ body {
                 margin-bottom: 8px;
               }
               .model-text {
-                font-size: 0.8em;
+                font-size: 0.9em;
                 margin: 0 0 6px;
                 line-height: 1.4;
               }
               .model-specs {
-                font-size: 0.75em;
+                font-size: 0.9em;
                 color: #555;
                 margin: 0;
                 padding-left: 20px;
