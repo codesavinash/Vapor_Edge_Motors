@@ -238,7 +238,7 @@ body {
     #accessories {
       display: grid;
       grid-area: acc1;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(5, 1fr);
       gap: 50px;
       background: #2980b9;/* fallback for old browsers */
       background: -webkit-linear-gradient(to bottom,#ffffff,#6dd5fa,#2980b9);/* Chrome 10-25, Safari 5.1-6 */
