@@ -1,16 +1,41 @@
 let menuOpen = false;
 
-function toggleMenu() {
-  if(!menuOpen) {
-    $('nav').animate({
-      right:0
-    }, 320, 'swing');
-    menuOpen = true;
+const getHiddenRight = () => {
+  const navWidth = $('nav').outerWidth() || 0;
+  return -(navWidth + 40);
+};
+
+const syncHiddenPosition = () => {
+  if (!menuOpen) {
+    $('nav').css('right', getHiddenRight());
   }
-  else {
-    $('nav').animate({
-      right: -270
-    }, 260, 'swing');
-    menuOpen = false;
+};
+
+$(document).ready(() => {
+  syncHiddenPosition();
+  $(window).on('resize', syncHiddenPosition);
+});
+
+function toggleMenu() {
+  if (!menuOpen) {
+    $('nav').stop(true).animate(
+      {
+        right: 0
+      },
+      280,
+      'swing'
+    );
+    menuOpen = true;
+  } else {
+    $('nav').stop(true).animate(
+      {
+        right: getHiddenRight()
+      },
+      240,
+      'swing',
+      () => {
+        menuOpen = false;
+      }
+    );
   }
 }

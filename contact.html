@@ -7,7 +7,7 @@
   <title>Contact — Vapor Edge Motors</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/app.css" />
 </head>
 
@@ -34,18 +34,34 @@
     </div>
   </nav>
 
-  <div id="grid">
-    <header>
-      <h1 class="kodeMono">Contact Vapor Edge Motors</h1>
+  <main class="page-wrap">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="hero-eyebrow">Let’s connect</p>
+        <h1 class="hero-title">Contact Vapor Edge Motors</h1>
+        <p class="hero-summary">
+          Questions about models, accessories, or custom builds? Our team is on standby Monday to Friday with tailored guidance and technical support.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="tel:+14165550123">Call us directly</a>
+          <a class="btn btn-ghost" href="#contact">Send a message</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="assets/images/map.png" alt="Vapor Edge Motors global map" />
+      </div>
     </header>
-    <section id="contact" class="kodeMono">
+
+    <section id="contact">
       <div class="contact-left">
-        <h2>Let’s talk about your next ride.</h2>
-        <p class="contact-intro">Have questions about VE models, accessories or pre-orders? Drop us a message and our team will get back to you within 1–2 business days.</p>
+        <div>
+          <h2>We’re here for the ride ahead</h2>
+          <p class="contact-intro">Drop us a note and we’ll respond within one business day. You can also book a call to walk through specs, financing, or product demos.</p>
+        </div>
 
         <div class="contact-details">
           <div class="contact-block">
-            <h3>Head Office</h3>
+            <h3>Head office</h3>
             <p>
               Vapor Edge Motors<br />
               123 Innovation Drive<br />
@@ -61,26 +77,28 @@
             <p><a href="tel:+14165550123">+1 (416) 555-0123</a></p>
           </div>
           <div class="contact-block">
-            <h3>Support Hours</h3>
-            <p>Mon–Fri · 9:00 AM – 6:00 PM (EST)</p>
+            <h3>Support hours</h3>
+            <p>Monday to Friday · 9:00 AM – 6:00 PM (EST)</p>
           </div>
         </div>
+
         <div class="contact-social">
-          <p>Follow us</p>
+          <p>Follow our journey</p>
           <div class="contact-social-links">
-            <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebook.png" alt=""></a>
-            <a href="https://www.twitter.com/" target="_blank"><img src="assets/images/twitter.png" alt=""></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="assets/images/instagram.png" alt=""></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebook.png" alt="Facebook" /></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="assets/images/twitter.png" alt="Twitter" /></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="assets/images/instagram.png" alt="Instagram" /></a>
           </div>
         </div>
       </div>
+
       <div class="contact-right">
         <h2>Send us a message</h2>
         <p class="contact-form-caption">Fields marked with * are required.</p>
         <form class="contact-form" action="#" method="post">
           <div class="form-row">
             <div class="form-field">
-              <label for="name">Full Name *</label>
+              <label for="name">Full name *</label>
               <input type="text" id="name" name="name" required placeholder="Your full name" />
             </div>
             <div class="form-field">
@@ -89,34 +107,32 @@
             </div>
           </div>
           <div class="form-row">
-            <div class="form-field">
+            <div class="form-field full">
               <label for="phone">Phone</label>
               <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567" />
             </div>
           </div>
-          <div class="form-field">
-            <label for="message">Message *</label>
-            <textarea id="message" name="message" rows="5" required placeholder="Tell us how we can help..."></textarea>
+          <div class="form-row">
+            <div class="form-field full">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Tell us how we can help..."></textarea>
+            </div>
           </div>
-          <button type="submit" class="btn-submit">Send Message</button>
+          <button type="submit" class="btn-submit">Send message</button>
         </form>
       </div>
     </section>
 
-    <footer>
-      <div class="footer-address">
-        <p>
-          Vapor Edge Motors<br />
-          123 Innovation Drive<br />
-          Mississauga, ON L5A 1B2<br />
-          info@vaporedge112233.com
-        </p>
-      </div>
-      <div class="footer-bottom">
-        <p>© 2025 Vapor Edge Motors. All rights reserved.</p>
-      </div>
+    <footer class="site-footer">
+      <p>
+        Vapor Edge Motors<br />
+        123 Innovation Drive<br />
+        Mississauga, ON L5A 1B2<br />
+        info@vaporedge112233.com
+      </p>
+      <p>© 2025 Vapor Edge Motors. All rights reserved.</p>
     </footer>
-  </div>
+  </main>
 
   <script src="js/jquery.js"></script>
   <script src="js/app.js"></script>
