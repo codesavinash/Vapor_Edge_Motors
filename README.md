@@ -29,6 +29,6 @@ Marketing site for a fictional electric motorcycle brand, built as a static fron
 - Enhance interactivity by expanding `js/app.js` or integrating additional scripts.
 
 ## License
-No license has been specified. If you intend to distribute or use this project publicly, add an appropriate license file.
+No license.
 
 
