@@ -6,10 +6,7 @@ Marketing site for a fictional electric motorcycle brand, built as a static fron
 
 screenshots
 
-## Features<img width="877" height="702" alt="Screenshot 2025-11-11 at 5 42 36 PM" src="https://github.com/user-attachments/assets/a0d92215-d16e-4a22-871b-fafc8425d9d6" />
-
-<img width="1469" height="800" alt="Screenshot 2025-11-11 at 5 41 32 PM" src="https://github.com/user-attachments/assets/e92038ec-1d75-43f4-ab53-774c79f09f24" />
-
+<img width="1457" height="800" alt="Screenshot 2025-11-11 at 5 59 27 PM" src="https://github.com/user-attachments/assets/7683e46a-926e-4ff2-b389-c3f81ca71f6f" />
 
 - Responsive layout tailored for desktop and tablet breakpoints.
 - Hero, technology, FAQs, and product highlight sections on the landing page.
