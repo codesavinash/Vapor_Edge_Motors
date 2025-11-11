@@ -8,6 +8,10 @@ screenshots
 
 <img width="1457" height="800" alt="Screenshot 2025-11-11 at 5 59 27 PM" src="https://github.com/user-attachments/assets/7683e46a-926e-4ff2-b389-c3f81ca71f6f" />
 
+
+<img width="1457" height="800" alt="Screenshot 2025-11-11 at 6 01 48 PM" src="https://github.com/user-attachments/assets/0c5e6017-834f-4b8a-86c6-0470b0413173" />
+
+
 - Responsive layout tailored for desktop and tablet breakpoints.
 - Hero, technology, FAQs, and product highlight sections on the landing page.
 - Dedicated pages for models, accessories, and contact details.
