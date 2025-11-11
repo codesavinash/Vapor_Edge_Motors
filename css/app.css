@@ -88,19 +88,17 @@ h4 {
   right: 32px;
   width: 48px;
   height: 48px;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  box-shadow: var(--shadow-soft);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
   cursor: pointer;
   z-index: 21;
-  transition: box-shadow 0.24s ease, transform 0.24s ease;
+  transition: transform 0.24s ease;
 }
 
 #hamburger:hover {
-  box-shadow: var(--shadow-hard);
   transform: translateY(-2px);
 }
 
@@ -113,7 +111,7 @@ h4 {
 }
 
 .bar + .bar {
-  margin-top: 5px;
+  margin-top: 0;
 }
 
 nav {
