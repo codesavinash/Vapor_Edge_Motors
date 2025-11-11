@@ -4,7 +4,13 @@ Demo:   https://codesavinash.github.io/Vapor_Edge_Motors/
 
 Marketing site for a fictional electric motorcycle brand, built as a static front end. The project showcases product storytelling across multiple pages (`index.html`, `models.html`, `accessories.html`, `contact.html`) with custom styling and light interactivity.
 
-## Features
+screenshots
+
+## Features<img width="877" height="702" alt="Screenshot 2025-11-11 at 5 42 36 PM" src="https://github.com/user-attachments/assets/a0d92215-d16e-4a22-871b-fafc8425d9d6" />
+
+<img width="1469" height="800" alt="Screenshot 2025-11-11 at 5 41 32 PM" src="https://github.com/user-attachments/assets/e92038ec-1d75-43f4-ab53-774c79f09f24" />
+
+
 - Responsive layout tailored for desktop and tablet breakpoints.
 - Hero, technology, FAQs, and product highlight sections on the landing page.
 - Dedicated pages for models, accessories, and contact details.
